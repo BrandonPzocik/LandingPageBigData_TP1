@@ -104,14 +104,14 @@ export default function DataTable() {
 
   return (
     <div>
-      <div className="mb-4">
+      {/* <div className="mb-4">
         <Input
           placeholder="Buscar por hábito, grupo de edad o sexo..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="max-w-sm"
         />
-      </div>
+      </div> */}
 
       <div className="rounded-md border">
         <Table>

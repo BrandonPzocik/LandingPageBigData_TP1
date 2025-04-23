@@ -28,7 +28,7 @@ export default function Home() {
             <TabsTrigger value="habitos">Hábitos</TabsTrigger>
             <TabsTrigger value="genero">Por Género</TabsTrigger>
             <TabsTrigger value="edad">Por Edad</TabsTrigger>
-            <TabsTrigger value="datos">Datos</TabsTrigger>
+            {/* <TabsTrigger value="datos">Datos</TabsTrigger> */}
           </TabsList>
 
           <TabsContent value="dashboard" className="mt-4">
@@ -70,12 +70,12 @@ export default function Home() {
            
           </TabsContent>
 
-          <TabsContent value="datos" className="mt-4">
+          {/* <TabsContent value="datos" className="mt-4">
             <div className="rounded-lg border bg-white p-4 shadow-sm">
               <h2 className="mb-4 text-lg font-semibold">Datos</h2>
               <DataTable />
             </div>
-          </TabsContent>
+          </TabsContent> */}
         </Tabs>
 
         {activeTab === "dashboard" && (
