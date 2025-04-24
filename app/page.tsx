@@ -16,7 +16,7 @@ export default function Home() {
       <header className="bg-blue-600 py-4 text-white">
         <div className="container mx-auto px-4">
           <h1 className="text-center text-2xl font-bold">
-            Dashboard: Cambios de hábitos por inseguridad en Buenos Aires (2017)
+            Reporte: Cambios de hábitos por inseguridad en Buenos Aires (2017)
           </h1>
         </div>
       </header>
@@ -24,7 +24,7 @@ export default function Home() {
       <main className="container mx-auto p-4">
         <Tabs defaultValue="dashboard" className="w-full" onValueChange={setActiveTab}>
           <TabsList className="grid w-full grid-cols-5">
-            <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
+            <TabsTrigger value="dashboard">Reporte</TabsTrigger>
             <TabsTrigger value="habitos">Hábitos</TabsTrigger>
             <TabsTrigger value="genero">Por Género</TabsTrigger>
             <TabsTrigger value="edad">Por Edad</TabsTrigger>
